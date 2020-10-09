@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Mesto na kome možete naći više od 10000 proizvoda, izabrati one omiljene i kontaktirate najbližu prodavnicu ukoliko te iste proizvode želite da vam se naruče u toj prodavnici, da bi ste ih kupili i ne biste čekali red." />
+    <meta name="author" content="Anja Tomić" />
+    <meta name="author" content="mailto:anja&#46;tomic099&#64;gmail&#46;com" />
+    <meta name="keywords" content="kozmetički proizvodi, kozmetika, jeftina kozmetika" />
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+    <title>Najbolja svetska online kozmetička prodavnica | Glow&Go | Pravo mesto za vaš sjaj i lepotu</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/42bf19abdf.js" crossorigin="anonymous"></script>
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> 
+    <!-- Plugins -->
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery-letterfx.min.css">
+    <!-- My CSS -->
+    <link href="assets/css/style.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/responsive.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+     <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- HEADER SECTION BEGIN -->
+    <nav class="container-fluid" id="menu" >
+        <div class="logoHeader col-lg-2 mr-4">
+        </div>
+        <div class="nav ml-auto">
+        </div>
+        <div id="blokDesno" class="text-right">
+            <ul class="nav-right">
+                <li class="col-lg-1">
+                    <input class="form-control pretragaPocetna" type="search" id="pretraga" value='' placeholder="Pretraži proizvode..."/>
+                </li>
+                <li class="heart-icon col-lg-1">
+                    <a href="wishlist.html"title="Lista želja" data-toggle="tooltip" data-placement="bottom">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </li>
+                <li class="cart-icon col-lg-1">
+                    <a href="#" title="shopping cart" data-toggle="tooltip" data-placement="bottom">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--navigacija za mobilne uredjaje i logo-->
+    <nav id="mob">
+        <div class="logoHeaderMob">
+        </div>
+        <div class="nav">
+        </div>
+       
+        <div id="ikonice">
+            <ul class="nav-rightMob">
+                <li class="col-lg-1 cart-icon">
+                   <i class="fas fa-shopping-cart"></i>
+                </li>
+                <li class="col-lg-1 heart-icon">
+                    <a href="wishlist.html"title="Lista želja" data-toggle="tooltip" data-placement="bottom">
+                       <i class="far fa-heart"></i>
+                    </a> 
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--// HEADER SECTION END -->
+
+    <!--hamburger ikonica-->   
+    <div id="hamburgerIkonica">
+        <a href="#"><i class="fas fa-bars"></i></a>
+    </div>  
+    <br><br><br><br>
+
+    <!-- Content -->
+    <main id="sredina" class="container-fluid">
+        <div class="row">
+            <!-- OPCIJE ZA FILTRIRANJE -->
+            <div id="levaKolona" class="col-lg-3 col-md-4 bg-gray-dark border-right border-bottom rounded border-size-1">
+                <div>
+                    <input class="form-control pretragaPocetnaMob" type="search" id="pretragaMob" value='' placeholder="Pretraži proizvode..."/>
+                </div>
+                <div class="levoNaslov d-flex flex-row justify-content-between">
+                    <h2 class="text-uppercase text-center col-lg-12">
+                        Kategorije:
+                    </h2>                                     
+                </div>
+                <div class="col-auto p-0">
+                    <ul id="kategorije" >
+                <!-- ISPIS KATEGORIJA -->
+                    </ul>
+                    <select id="kategorijeMob" class="custom-select" id="inlineFormCustomSelect">
+                <!-- ISPIS KATEGORIJA za mobilne uredjaje-->       
+                    </select>
+                </div> 
+                <div class="levoNaslov d-flex flex-row justify-content-between">
+                    <h2 class="text-uppercase text-center col-lg-12">
+                        Brendovi:
+                    </h2>                                     
+                </div>
+                <div class="col-auto p-0">
+                    <ul id="brendovi">
+                <!-- ISPIS BRENDOVA -->
+                    </ul>
+                    <select id="brendoviMob" class="custom-select" id="inlineFormCustomSelect">
+                <!-- ISPIS BRENDOBA za mobilne uredjaje-->       
+                    </select>
+                </div> 
+                <div class="levoNaslov border-0 mt-2 d-flex flex-row justify-content-between">
+                    <h2 class="text-uppercase text-center col-lg-12">
+                        Po rangu cene:
+                    </h2>                                     
+                </div>
+                <div class="col-auto p-0">
+                    <div class="slidecontainer">
+                        <input type="range" min="20" max="5000" value="1000" class="slider" id="rangePrice" name="rangePrice">
+                        <p id='rangeCene'>Cena u opsegu od 20 do <span id="demo">10000</span>RSD</p>
+                    </div>
+                </div> 
+                <div id="filtriranje" class="col-lg-12 col-md-11 d-flex ml-auto">
+                    <div class="col-lg-12 poPolu">
+                            <h2 class="levoNaslov text-uppercase text-center col-lg-12">
+                                Pol:
+                            </h2>  
+                            <div id="pol" class=" text-center col-lg-12 ml-auto">
+                                <input type="radio" data-pol="m" name="rbPol" value="muski"/>Muski <br/>
+                                <input type="radio" data-pol="z" name="rbPol" value="zenski"/>Zenski
+                            </div>                                   
+                    </div>
+                </div>
+            </div>
+
+             <!-- OPCIJE ZA SORTIRANJE -->
+            <div id="sadrzaj" class="col-lg-8 col-md-7 col-sm-12 ml-auto bg-gray-dark border-right border rounded border-size-1">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class=" row shopTop-toolbar bg-gray-dark border-right border-bottom rounded border-size-1 d-flex justify-content-between" id="views">
+                            <ul class="viewMode col-lg-3 col-md-2 col-sm-1 d-flex justify-content-between">
+                                <li>
+                                    <a>sort</a>
+                                </li>
+                                <li class="active">
+                                    <a href="#"class="tri" data-toggle="tab">
+                                        <i class="fas fa-th"></i>
+                                        <!-- TROKOLUMNA STRUKTURA PROIZVODA  -->
+                                    </a>
+                                </li>
+                                <li class="active">
+                                    <a href="#" class="cetiri" data-toggle="tab2">
+                                        <i class="material-icons four">view_comfy</i>
+                                            <!-- CETVOROKOLUMNA STRUKTURA PROIZVODA -->
+                                    </a>
+                                </li>
+                            </ul>
+                            <select id="sort" class="col-lg-4">
+                                <!-- DINAMICKI ISPIS DROP-DOWN LISTE -->
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <section id="proizvodi" class="col-lg-12 d-flex flex-wrap">
+                        <!-- ISPIS PROIZVODA -->
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+<!-- Footer -->
+<footer class="footer container-fluid">
+    <div class="row rowFooter">
+        <div class="col-xl-4 col-md-5 col-sm-6"id="aboutUs">
+            <h3><strong>About us</strong></h3>
+            <p>Osnovna delatnost kojom se bavi Glow&Go je, najkraće rečeno – lepota. Preciznije, bavimo se distribucijom proizvoda za ulepšavanje koji su namenjeni najpre ličnoj upotrebi, a onda i u profesionalne svrhe.Dugogodišnje iskustvo naučilo nas je da pažljivo osluškujemo potrebe svojih klijenata i u skladu sa tim, naša ponuda sadrži više od 35 000 artikala i preko 100 različitih brendova i, zajedno sa nama, neprekidno raste. <br>Ukoliko imate pitanja u vezi sa našim proizvodima, ponudom ili poslovanjem slobodno nas kontaktirajte. Rado ćemo Vam odgovoriti.</p>
+            <ul id="mreze" class="d-flex">
+        
+            </ul>
+            <p>Copyright &copy;<span class="godinaCopyright"></span> <em>All rights reserved.</em> | by Glow&Go </p>
+        </div>
+        <div class="col-xl-2 col-md-3 col-sm-3 odvoji" >
+            <h3><em>Navigacija</em></h3>
+            <div class="nav link"> </div>
+        </div>
+        <div class="col-xl-2 col-md-4 col-sm-3 odvoji">
+            <h3><em>Korisni linkovi:</em></h3>
+            <div id="links2">
+                <div class="link">
+                    <ul>
+                        <li>
+                            <a href="documentation.pdf">Dokumentacija</a>
+                        </li>
+                        <li>
+                            <a href="sitemap.xml">Sitemap</a>
+                        </li>
+                        <li>
+                            <a id="otvoriNoviTab">Autor</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-4 col-md-5 col-sm-6 odvoji">
+            <h3 ><em>Newsletter</em></h3>
+            <section id="newsLetter" class="container-fluid">
+                <div class="wrapper">
+                    <form action="" method="" id="formaObavestenje">
+                        <input type="text" id="newsletterEmail" placeholder="nesto@gmail.com " value=""/>
+                        <span class="emailVesti-greska">*Email nije validan. Mora da bude ispisan sve malim slovima u formatu: nesto@gmail.com</span><br>
+                        <div id="popup">
+                            <h3></h3>
+                        </div>
+                        <input type="button" id="btnNewsletterEmail" value="Subscribe"/>
+                        <div class="cleaner"></div>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </div>
+</footer>
+<div id="copyright"></div>
+<div id="scrollTop">
+    <a href="#">
+        <i class="fas fa-angle-double-up goToTop"></i>
+    </a>
+</div>
+<div id="modaliProizvoda">
+    
+</div>
+
+    <!-- JS  -->
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- Plugins -->
+    <script type="text/javascript" src="assets/js/jquery-letterfx.min.js"></script>
+    <!-- My js -->
+    <script src="assets/js/main.min.js" type="text/javascript" ></script>
+    <script src="assets/js/shop.min.js" type="text/javascript" ></script>
+    <script src="assets/js/wishlist.min.js" type="text/javascript" ></script>
+</body>
+</html>

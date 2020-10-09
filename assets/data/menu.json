@@ -1,0 +1,17 @@
+[
+    {
+        "id":1,
+        "putanja":"index.html",
+        "naziv":"Početna"
+    },
+    {
+        "id":2,
+        "putanja":"shop.html",
+        "naziv":"Prodavnica"
+    },
+    {
+        "id":3,
+        "putanja":"index.html#kontakt",
+        "naziv":"Kontakt"
+    }
+]

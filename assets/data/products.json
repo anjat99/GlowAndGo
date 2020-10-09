@@ -1,0 +1,621 @@
+[
+    {
+        "id":1,
+        "slika":{
+            "putanja":"assets/images/makeup/big/senkeNyx_b.jpg",
+            "alt":"senke nyx"
+        },
+        "thumbnail":{
+            "putanja":"assets/images/makeup/small/senkeNyx_thumbnail.jpg",
+            "alt":"senke nyx"
+        },
+        "naziv": "NYX PROFESSIONAL MAKEUP PALETA SENKI ZA OČI",
+        "opis":"Paleta senki za oči koja sadrži 10 visoko pigmentovanih tonova. Dostupna je u 2 različite kombinacije boja i uz nju ćete kreirati svaki željeni makeup. Nijanse se kreću od mat pa sve do sedefastih.",
+        "pol":"zenski",
+        "datumUnosa": "2020-02-12",
+        "kategorije":{
+            "idKategorije":1,
+            "naziv":"MAKEUP"
+        },
+        "zvezdice":5,
+        "cena":{
+            "original": 1723.99,
+            "snizeno": 1659.40
+        },
+        "naStanju":true,
+        "brend": {
+            "id":8,
+            "naziv":"Nyx"
+        }
+    },
+    {
+        "id":2,
+        "slika":{
+            "putanja":"assets/images/bodyCare/big/dove-gelShower_b.jpg",
+            "alt":"gel shower dove"
+        },
+        "thumbnail":{
+            "putanja":"assets/images/bodyCare/small/dove-gelShower_thumbnail.jpg",
+            "alt":"gel shower dove"
+        },
+        "naziv": "DOVE MUŠKI GEL ZA TUŠIRANJE 400ML",
+        "opis":"Gel za tuširanje za muškarce. Za lice i telo.",
+        "pol":"muski",
+        "datumUnosa": "2020-01-12",
+        "kolicina":5,
+        "kategorije":{
+            "idKategorije":4,
+            "naziv":"TRETMANI I NEGA TELA"
+        },
+        "zvezdice":4,
+        "cena":{
+            "original": 485.99,
+            "snizeno": 465.99
+        },
+        "naStanju":true,
+        "brend":{
+            "id":2,
+            "naziv":"Dove"
+        }
+    },
+    {
+        "id":3,
+        "slika":{
+            "putanja":"assets/images/bodyCare/big/malizia-manSprej_b.jpg",
+            "alt":"man sprej malizia"
+        },
+        "thumbnail":{
+            "putanja":"assets/images/bodyCare/small/malizia-manSprej_thumbnail.jpg",
+            "alt":"man sprej malizia"
+        },
+        "naziv": "MALIZIA MUŠKI DEZODORANS U SPREJU 150ML",
+        "opis":"Prijatnog mirisa sa produzenim dejstvom zbog prisustva parfema.",
+        "pol":"muski",
+        "datumUnosa": "2019-11-25",
+        "kolicina":5,
+        "kategorije":{
+            "idKategorije":4,
+            "naziv":"TRETMANI I NEGA TELA"
+        },
+        "zvezdice":3,
+        "cena":{
+            "original": 329.99,
+            "snizeno": 259.40
+        },
+        "naStanju":false,
+        "brend":{
+            "id":3,
+            "naziv":"Malizia"
+        }
+    },
+    {
+        "id":4,
+        "slika":{
+            "putanja":"assets/images/bodyCare/big/nivea-careShower-vanilla_b.jpg",
+            "alt":"care shower nivea"
+        },
+        "thumbnail":{
+            "putanja":"assets/images/bodyCare/small/nivea-careShower-vanilla_thumbnail.jpg",
+            "alt":"care shower nivea"
+        },
+        "naziv": "NIVEA VANILA FLOWER GEL ZA TUŠIRANJE 250ML",
+        "opis":"Negujući gel za tuširanje sa hidrirajućim svojstvima za osećaj meke kože. Uživajte u negujućem, kremastom gelu za tuširanje, obogaćenom odabranim sastojcima NIVEA plave kreme - Pro Vitaminom i negujućim uljima. Dopustite da svilenkasta pena i jedinstveni NIVEA miris obaviju vaše telo pružajući osećaj intenzivno hidrirane i glatke kože...",
+        "pol":"zenski",
+        "datumUnosa": "2019-07-15",
+        "kolicina":6,
+        "kategorije":
+            {
+                "idKategorije":4,
+                "naziv":"TRETMANI I NEGA TELA"
+            },
+        "zvezdice":1,
+        "cena":{
+            "original": 165.99,
+            "snizeno": 149.40
+        },
+        "naStanju":true,
+        "brend": {
+            "id":4,
+            "naziv":"Nivea"
+        }
+    },
+    {
+        "id":5,
+        "slika":{
+            "putanja":"assets/images/bodyCare/big/eveline-handCream-strawberry_b.jpg",
+            "alt":"hand cream velnea"
+        },
+        "thumbnail":{
+            "putanja":"assets/images/bodyCare/small/eveline-handCream-strawberry_thumbnail.jpg",
+            "alt":"hand cream velnea"
+        },
+        "naziv": "EVELINE SWEET HANDS STRAWBERRY SKIN KREMA ZA RUKE 50ML",
+        "opis":"REGENERATIVNA KREMA ZA RUKE sa mirisom jagode. Regenerativna krema za ruke sa mirisom jagode ublažava iritacije i neguje oštećenu kožu ruku. Intenzivno hidrira i vraća koži zaštitnu barijeru.",
+        "pol":"zenski",
+        "datumUnosa": "2019-08-29",
+        "kolicina":7,
+        "kategorije":
+            {
+                "idKategorije":4,
+                "naziv":"TRETMANI I NEGA TELA"
+            }
+        ,
+        "zvezdice":4,
+        "cena":{
+            "original": 265.99,
+            "snizeno": 208.99
+        },
+        "naStanju":true,
+        "brend": {
+            "id":5,
+            "naziv":"Eveline"
+        }
+    },
+    {
+        "id":6,
+        "slika":{
+            "putanja":"assets/images/bodyCare/big/eveline-handCream-bananaCoconut_b.jpg",
+            "alt":"hand cream eveline"
+        },
+        "thumbnail":{
+            "putanja":"assets/images/bodyCare/small/eveline-handCream-bananaCoconut_thumbnail.jpg",
+            "alt":"hand cream eveline"
+        },
+        "naziv": "EVELINE SWEET HANDS BANANA CARE KREMA ZA RUKE 50ML",
+        "opis":"Umirujuća krema za ruke eliminiše hrapavost kože, dubinski hidrira i vraća joj mekoću.",
+        "pol":"zenski",
+        "datumUnosa": "2018-11-12",
+        "kolicina":5,
+        "kategorije":{
+            "idKategorije":4,
+            "naziv":"TRETMANI I NEGA TELA"
+        },
+        "zvezdice":3,
+        "cena":{
+            "original": 999.99,
+            "snizeno": 825.40
+        },
+        "naStanju":true,
+        "brend": {
+            "id":5,
+            "naziv":"Eveline"
+        }
+    },
+    {
+        "id":7,
+        "slika":{
+            "putanja":"assets/images/bodyCare/big/malizia-shower-vanillaArgan_b.jpg",
+            "alt":"hand cream afrodita"
+        },
+        "thumbnail":{
+            "putanja":"assets/images/bodyCare/small/malizia-shower-vanillaArgan_thumbnail.jpg",
+            "alt":"hand cream afrodita"
+        },
+        "naziv": "MALIZIA ARGAN I VANILA PENA ZA KUPANJE 1000ML ",
+        "opis":"Italijanski brend Malizia ima veoma dugu tradiciju i odavno je našao svoje mesto u domovima širom svsveta. Malizia kupke osvajaju svojim očaravajućim mirisima i nikoga ne ostavljaju ravnodušnim. Kupka sa mirisom argana približiće vam čari egzotičnog maroka, a zavodljivi miris vanile opiće sva vaša čula",
+        "pol":"zenski",
+        "datumUnosa": "2018-12-11",
+        "kategorije":{
+            "idKategorije":4,
+            "naziv":"TRETMANI I NEGA TELA"
+        },
+        "zvezdice":2,
+        "cena":{
+            "original": 1065.99,
+            "snizeno": 985.40
+        },
+        "naStanju":true,
+        "brend":{
+            "id":3,
+            "naziv":"Malizia"
+        }
+    },
+    {
+        "id":8,
+        "slika":{
+            "putanja":"assets/images/makeup/big/ruzMabelline_b.jpg",
+            "alt":"mabelline ruz"
+        },
+        "thumbnail":{
+            "putanja":"assets/images/makeup/small/ruzMabelline_thumbnail.jpg",
+            "alt":"mabelline ruz za usne"
+        },
+        "naziv": "MAYBELLINE NEW YORK COLOR SENSATIONAL RUŽ ZA USNE 547",
+        "opis":"Maybelline NY Color Sensational, ruž za usne u kremastoj formuli. Maybelline je uveo potpuno nov tip karmina, elegantnog sjaja, smelih boja, fine teksture za sofisticiran izgled. Čini usne mekim i daje.im senzacionalan izgled. Boje su kremastije sa ravnomernim sjajem koji daje potpuno blistav izgled, bez šljokica. Hranljivi nektar meda za sladak osećaj na vašim usnama i raskošnu boju.",
+        "pol":"zenski",
+        "datumUnosa": "2020-03-05",
+        "kategorije":{
+            "idKategorije":1,
+            "naziv":"MAKEUP"
+        },
+        "zvezdice":5,
+        "cena":{
+            "original": 149.99,
+            "snizeno": 129.40
+        },
+        "naStanju":true,
+        "brend": {
+            "id":7,
+            "naziv":"Maybelline"
+        }
+    },
+    {
+        "id":9,
+        "slika":{
+            "putanja":"assets/images/bodyCare/big/afrodita-handCream_b.jpg",
+            "alt":"hand cream afrodita"
+        },
+        "thumbnail":{
+            "putanja":"assets/images/bodyCare/small/afrodita-handCream_thumbnail.jpg",
+            "alt":"hand cream afrodita"
+        },
+        "naziv": "AFRODITA KAMILICA KREMA ZA RUKE 100ML",
+        "opis":"Krema za ruke CHAMOMILE, 100ml intenzivna nega ispucanih ruku s ekstraktom kamilice. Štiti i neguje suvu kozu, kao što i sprečava nastanak pukotina na koži. Takođe i neguje nokte i kožicu oko noktiju",
+        "pol":"zenski",
+        "datumUnosa": "2018-12-12",
+        "kolicina":10,
+        "kategorije":{
+            "idKategorije":4,
+            "naziv":"TRETMANI I NEGA TELA"
+        },
+        "zvezdice":5,
+        "cena":{
+            "original": 165.99,
+            "snizeno": 129.40
+        },
+        "naStanju":true,
+        "brend": {
+            "id":1,
+            "naziv":"Afrodita"
+        }
+    },
+    {
+        "id":10,
+        "slika":{
+            "putanja":"assets/images/makeup/big/babyLips_b.jpg",
+            "alt":"mabelline labelo"
+        },
+        "thumbnail":{
+            "putanja":"assets/images/makeup/small/babyLips_thumbnail.jpg",
+            "alt":"mabelline labelo"
+        },
+        "naziv": "MAYBELLINE NEW YORK BABY LIPS BALSAM ZA USNE PEACH KISS.",
+        "opis":"Maybelline New York Baby Lips pruža 8 sati neprestane hidratacije, a usne su vidno zdravije za samo 4 nedelje. Vaše usne će biti 82% manje suve i 94% manje grube.",
+        "pol":"zenski",
+        "datumUnosa": "2020-02-11",
+        "kategorije":{
+            "idKategorije":1,
+            "naziv":"MAKEUP"
+        },
+        "zvezdice":4,
+        "cena":{
+            "original": 689.99,
+            "snizeno": 649.40
+        },
+        "naStanju":true,
+        "brend": {
+            "id":7,
+            "naziv":"Maybelline"
+        }
+    },
+    {
+        "id":11,
+        "slika":{
+            "putanja":"assets/images/makeup/big/maskaraNyx_b.jpg",
+            "alt":"maskara nyx liftscare"
+        },
+        "thumbnail":{
+            "putanja":"assets/images/makeup/small/maskaraNyx_thumbnail.jpg",
+            "alt":"maskara nyx liftscare"
+        },
+        "naziv": "NYX PROFESSIONAL MAKEUP MASKARA ON THE RISE VOLUME LIFTSCARE",
+        "opis":"Podignite svoja očekivanja sa našom novim On the Rise Volume Liftscara maskarom. Ova ultra-pigmentirana formula hvata i oblaže trepavice u mat crnoj boji za brzo podizanje i volumen u samo nekoliko poteza. Uz inovativni oblik aplikatora i glavu četkice od elastomera, četkica sa delimičnim zaobljenim delom daje intenzivnu jačinu i neverovatno podignute trepavice! ",
+        "pol":"zenski",
+        "datumUnosa": "2020-01-22",
+        "kategorije":{
+            "idKategorije":1,
+            "naziv":"MAKEUP"
+        },
+        "zvezdice":1,
+        "cena":{
+            "original": 1425.99,
+            "snizeno": 1353.40
+        },
+        "naStanju":true,
+        "brend": {
+            "id":8,
+            "naziv":"Nyx"
+        }
+    },
+    {
+        "id":12,
+        "slika":{
+            "putanja":"assets/images/makeup/big/maybellineMaskara_b.jpg",
+            "alt":"maskara mabelline"
+        },
+        "thumbnail":{
+            "putanja":"assets/images/makeup/small/maybellineMaskara_thumbnail.jpg",
+            "alt":"maskara mabelline"
+        },
+        "naziv": "MAYBELLINE NEW YORK TOTAL TEMPTATION MASKARA",
+        "opis":"Maybelline New York Total Temptation maskara Zavodljiv, nadogradiv volumen. Trepavice izgledaju tako gusto I toliko su meke.  Naša formula se lako nanosi i ne ostavlja grudvice. Maybelline New York Lasting Drama gel ajlajner 24H Gel formula. Postojana 24h*. Intenzivna boja. Nanosi se u jednom koraku za efekat tanke ili punije linije.",
+        "pol":"zenski",
+        "datumUnosa": "2019-12-29",
+        "kategorije":{
+            "idKategorije":1,
+            "naziv":"MAKEUP"
+        },
+        "zvezdice":3,
+        "cena":{
+            "original": 2059.99,
+            "snizeno": 1987.40
+        },
+        "naStanju":true,
+        "brend": {
+            "id":7,
+            "naziv":"Maybelline"
+        }
+    },
+    {
+        "id":13,
+        "slika":{
+            "putanja":"assets/images/faceCare/big/evelinKrema_b.jpg",
+            "alt":"face cream eveline"
+        },
+        "thumbnail":{
+            "putanja":"assets/images/faceCare/small/evelinKrema_thumbnail.jpg",
+            "alt":"face cream eveline"
+        },
+        "naziv": "EVELINE GOLD LIFT EXPERT KREMA ZA LICE 40+ 50ML",
+        "opis":"Lifting tretman zlatnim nitima – kao alternativa invanzivnim metodama skalpelom je postao apsolutni “hit” u svetu estetske hirurgije. Odmah ispod kože podstiČe proizvodnju kolagena i elastina. Kao rezultat, oko svake niti se formira gusta mreža novih vlakana koja odmah podmlađuje crte lica. ",
+        "pol":"zenski",
+        "datumUnosa": "2019-12-28",
+        "kategorije":{
+            "idKategorije":3,
+            "naziv":"NEGA LICA"
+        },
+        "zvezdice":5,
+        "cena":{
+            "original": 985.99,
+            "snizeno": 859.40
+        },
+        "naStanju":true,
+        "brend": {
+            "id":5,
+            "naziv":"Eveline"
+        }
+    },
+    {
+        "id":14,
+        "slika":{
+            "putanja":"assets/images/faceCare/big/nivea-bbKrema_b.jpg",
+            "alt":"face cream nivea"
+        },
+        "thumbnail":{
+            "putanja":"assets/images/faceCare/small/nivea-bbKrema_thumbnail.jpg",
+            "alt":"face cream nivea"
+        },
+        "naziv": "NIVEA ESSENTIALS BB KREMA SVETLA NIJANSA 50ML",
+        "opis":"NIVEA BB krema sa mineralima, provitaminom B5 i daškom šminke u jednom jednostavnom koraku obezbeđujđuje svim tipovima kože besprekoran ten a lice trenutno dobija zdrav i lep izgled. Dermatološki potvđeno da odgovara koži",
+        "pol":"zenski",
+        "datumUnosa": "2019-10-12",
+        "kategorije":{
+            "idKategorije":3,
+            "naziv":"NEGA LICA"
+        },
+        "zvezdice":1,
+        "cena":{
+            "original": 974.99,
+            "snizeno": 876.40
+        },
+        "naStanju":true,
+        "brend": {
+            "id":4,
+            "naziv":"Nivea"
+        }
+    },
+    {
+        "id":15,
+        "slika":{
+            "putanja":"assets/images/makeup/big/korektorNyx_b.jpg",
+            "alt":"korektor nyx"
+        },
+        "thumbnail":{
+            "putanja":"assets/images/makeup/small/korektorNyx_thumbnail.jpg",
+            "alt":"korektor nyx"
+        },
+        "naziv": "NYX PROFESSIONAL MAKEUP BORN TO GLOW KOREKTOR - FAIR",
+        "opis":"Tečni korektor za lice Born to Glow Radiant osvežava lice i ulepšava predeo oko očiju. Formula sa mikro perlama pokriva nesavršenosti i daje prirodan sjaj koži. Može se koristiti za konturisanje, zah.valjujući specijalno dijazniranom jastučastom aplikatoru, koji omogućava brzu i preciznu aplikaciju,, uz lako blendovanje",
+        "pol":"zenski",
+        "datumUnosa": "2018-10-29",
+        "kategorije":{
+            "idKategorije":1,
+            "naziv":"MAKEUP"
+        },
+        "zvezdice":4,
+        "cena":{
+            "original": 777.99,
+            "snizeno": 697.40
+        },
+        "naStanju":true,
+        "brend": {
+            "id":8,
+            "naziv":"Nyx"
+        }
+    },
+    {
+        "id":16,
+        "slika":{
+            "putanja":"assets/images/makeup/big/hajlajterStickMaybelline_b.jpg",
+            "alt":"highlighter stick mabelline"
+        },
+        "thumbnail":{
+            "putanja":"assets/images/makeup/small/hajlajterStickMaybelline_thumbnail.jpg",
+            "alt":"highlighter stick mabelline"
+        },
+        "naziv": "MAYBELLINE FACE STUDIO MASTER STROBING STICK HAJLAJTER U STIKU - 01 LIGHT",
+        "opis":"Maybelline Master Strobing predstavlja novitetu u vidu sjajnog highlighter-a koji se sastoji od kremaste formule sa sjajnim perlicama..",
+        "pol":"zenski",
+        "datumUnosa": "2019-10-10",
+        "kategorije":{
+            "idKategorije":1,
+            "naziv":"MAKEUP"
+        },
+        "zvezdice":2,
+        "cena":{
+            "original": 215.99,
+            "snizeno": 197.40
+        },
+        "naStanju":true,
+        "brend": {
+            "id":7,
+            "naziv":"Maybelline"
+        }
+    },
+    {
+        "id":17,
+        "slika":{
+            "putanja":"assets/images/hairCare/big/niveaDeepClean_b.jpg",
+            "alt":"hand cream afrodita"
+        },
+        "thumbnail":{
+            "putanja":"assets/images/hairCare/small/niveaDeepClean_thumbnail.jpg",
+            "alt":"hand cream afrodita"
+        },
+        "naziv": "NIVEA MEN DEEP GEL ZA ČIŠĆENJE LICA I BRADE 100ML",
+        "opis":"NIVEA MEN DEEP gel za čišćenje lica i brade sadrži formulaciju sa aktivnim ugljem i temeljno čisti kožu i bradu.",
+        "pol":"muski",
+        "datumUnosa": "2018-12-12",
+        "kategorije":{
+            "idKategorije":3,
+            "naziv":"NEGA LICA"
+        },
+        "zvezdice":3,
+        "cena":{
+            "original": 369.99,
+            "snizeno": 325.40
+        },
+        "naStanju":true,
+        "brend": {
+            "id":4,
+            "naziv":"Nivea"
+        }
+    },
+    {
+        "id":18,
+        "slika":{
+            "putanja":"assets/images/hairCare/big/afroditaUljeZaKosu_b.jpg",
+            "alt":"hair oil afrodita"
+        },
+        "thumbnail":{
+            "putanja":"assets/images/hairCare/small/afroditaUljeZaKosu_thumbnail.jpg",
+            "alt":"hair oil afrodita"
+        },
+        "naziv": "AFRODITA ORAHOVO ULJE ZA TAMNU KOSU 50 ML",
+        "opis":"Za negu, visok sjaj i zaštitu vrhova kose rasporedite orahovo ulje po celoj dužini suve tamnije kose.Nemojte ispirati ulje. A za regeneraciju tamne kose nanesite ulje pre pranja i ostavite da deluje 15minuta. Potom operite kosu..",
+        "pol":"zenski",
+        "datumUnosa": "2020-02-29",
+        "kategorije":{
+            "idKategorije":2,
+            "naziv":"TRETMANI I NEGA KOSE"
+        },
+        "zvezdice":5,
+        "cena":{
+            "original": 555.99,
+            "snizeno": 333.40
+        },
+        "naStanju":true,
+        "brend": {
+            "id":1,
+            "naziv":"Afrodita"
+        }
+    },
+    {
+        "id":19,
+        "slika":{
+            "putanja":"assets/images/hairCare/big/velneaDryShampoo_b.jpg",
+            "alt":"dry shampoo velnea"
+        },
+        "thumbnail":{
+            "putanja":"assets/images/hairCare/small/velneaDryShampoo_thumbnail.jpg",
+            "alt":"dry shampoo velnea"
+        },
+        "naziv": "VELNEA ŠAMPON ZA SUVO PRANJE KOSE 200ML",
+        "opis":"Šampon za suvo pranje nudi kosi dodatan dan svežine bez pranja vodom i daje kosi dodatan volumen i teksturu. Nežan je prema kosi i čini da ona izgleda dobro negovanom i revitalizovanom.",
+        "pol":"zenski",
+        "datumUnosa": "2020-03-06",
+        "kategorije":{
+            "idKategorije":2,
+            "naziv":"TRETMANI I NEGA KOSE"
+        },
+        "zvezdice":1,
+        "cena":{
+            "original": 671.99,
+            "snizeno": 652.40
+        },
+        "naStanju":true,
+        "brend":{
+            "id":6,
+            "naziv":"Velnea"
+        }
+       
+    },
+    {
+        "id":20,
+        "slika":{
+            "putanja":"assets/images/hairCare/big/niveaStrongPowerShampoo_b.jpg",
+            "alt":"shampoo nivea"
+        },
+        "thumbnail":{
+            "putanja":"assets/images/hairCare/small/niveaStrongPowerShampoo_thumbanail.jpg",
+            "alt":"shampoo nivea"
+        },
+        "naziv": "NIVEA MEN STRONG POWER ŠAMPON ZA KOSU 250 ML",
+        "opis":"Nivea Strong Power šampon za kosu predstavlja jedinstveni proizvod iz Nivea Men kolekcije koja je specijalno dizajnirana za potreve muškog pola.",
+        "pol":"muski",
+        "datumUnosa": "2020-03-07",
+        "kategorije":{
+            "idKategorije":2,
+            "naziv":"TRETMANI I NEGA KOSE"
+        },
+        "zvezdice":4,
+        "cena":{
+            "original": 309.99,
+            "snizeno": 257.40
+        },
+        "naStanju":true,
+        "brend": {
+            "id":4,
+            "naziv":"Nivea"
+        }
+    },
+    {
+        "id":21,
+        "slika":{
+            "putanja":"assets/images/faceCare/big/afroditaTonik_b.jpg",
+            "alt":"tonik za lice afrodita"
+        },
+        "thumbnail":{
+            "putanja":"assets/images/faceCare/small/afroditaTonik_thumbnail.jpg",
+            "alt":"tonik za lice afrodita"
+        },
+        "naziv": "​​​​​​​AFRODITA CLEAN PHASE HYDRA TONIK ZA LICE 100ML",
+        "opis":"CLEAN PHASE HYDRA TONIK. Namenjen za negu svih tipova kože. Deluje na tri nivoa uz nežni efekat hlađenja : VLAŽI, UMIRUJE, REGENERIŠE. Aktivni sastojak Aloe vera. Aktivno štiti od spoljašnjih uticaja (anti-pollution delovanje) izvrstan za suvu, nadraženu i kožu pocrvenelu od sunca. ",
+        "pol":"zenski",
+        "datumUnosa": "2020-03-07",
+        "kategorije":{
+            "idKategorije":3,
+            "naziv":"NEGA LICA"
+        },
+        "zvezdice":3,
+        "cena":{
+            "original": 500.99,
+            "snizeno": 449.40
+        },
+        "naStanju":false,
+        "brend": {
+            "id":1,
+            "naziv":"Afrodita"
+        }
+    }
+]

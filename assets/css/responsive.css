@@ -1,0 +1,109 @@
+@media (max-width:992px) {
+    .adventage{
+      flex-basis: 40%;
+    }
+    .proizvod-top{
+      flex-basis: 40%;
+    }
+    .client{
+      flex-basis: 45%;
+    }
+  }
+  @media (max-width:768px) {
+    #menu .logoHeader img{
+      display:none;
+    }
+    #menu .nav-right{
+      display: none;
+    }
+    #menu .nav{
+      display: none;
+    }
+    #hamburgerIkonica {
+        display: block;
+    }
+    #kategorijeMob{
+      width:100%;
+      display: block;
+    }
+    #brendoviMob{
+      width:100%;
+      display: block;
+    }
+    #sadrzaj{
+      width:100%;
+    }
+    input.pretragaPocetnaMob{
+      opacity: 1;
+    }
+    input.pretragaPocetnaMob:focus{
+      opacity: 1;
+    }
+    #sredina{
+      margin:0px auto;
+    }
+    #kategorije {
+      display: none;
+    }
+    #brendovi {
+      display: none;
+    }
+    #levaKolona{
+      width: 100%;
+    }
+    #levaKolona .levoNaslov h2, #levaKolona .naslov h2{
+      text-align: left !important;
+    }
+    #levaKolona .levoNaslov, #levaKolona .naslov{
+     border-bottom: none;
+    }
+    #central .wrapperMain{
+      flex-direction: column;
+    }
+    #contact{
+      margin-top: 30%;
+    }
+}
+@media (max-width:680px) {
+    .adventage{
+      flex-basis: 100%;
+    }
+    .client{
+      flex-basis: 100%;
+    }
+    .proizvod-top{
+      width: 100%;
+      margin: 0 auto;
+    }
+    .viewMode{
+      width:20%;
+    }
+}
+@media (max-width:576px) {
+    body #scrollTop {
+        bottom: 5.5%
+    }
+}
+@media (max-width:500px) {
+    .proizvod{
+      width:60%;
+    }
+    #over{
+      padding: 10px;
+      height: 100px;
+    }
+}
+@media (max-width:380px) {
+    #over{
+      padding: 10px;
+      height: 100px;
+    }
+    #adventages .advWrap .adventage{
+      min-height: 0;
+    }
+}
+@media (max-width:322px) {
+    form{
+      width: 100%;
+    }
+}

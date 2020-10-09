@@ -1,0 +1,18 @@
+[
+    {
+        "id":1,
+        "naziv":"MAKEUP"
+    },
+    {
+        "id":2,
+        "naziv":"TRETMANI I NEGA KOSE"
+    },
+    {
+        "id":3,
+        "naziv":"NEGA LICA"
+    },
+    {
+        "id":4,
+        "naziv":"TRETMANI I NEGA TELA"
+    }
+]
